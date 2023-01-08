@@ -1,0 +1,45 @@
+insert into ..... set id= -, name= -, role= -, etc;
+
+
+delete from ..... WHERE id= -;
+
+update ..... set name = - WHERE id = -;
+     -with no where, updates all rows
+
+     departments
+     - Merryment
+     - Musical
+     - Gifts
+     - Feasts
+
+     roles
+     - Head Decorator
+     - Parade Leader
+     - YuleTider
+
+     - Band Leader 
+     - Carol Writer
+     - Tuba Player
+
+     - Head wrapper 
+     - Finger Holder(for bow)
+     - Naughty List Manager
+
+     - Head chef
+     - Toast Master General
+     - Roast Beast Carver
+
+     employess
+     - Cindyloo Who - lead dec
+     - Walkin' Tall Who
+     - Yule Who
+     - Toots Who
+     - Carol King Who
+     - Fat Who
+     - MC Who
+     - YoYo Ma WHo
+     - Actualy Who
+     - Bourdain Who
+     - Obama Who
+     - Martha Who
+
