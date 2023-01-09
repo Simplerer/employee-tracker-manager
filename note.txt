@@ -6,40 +6,45 @@ delete from ..... WHERE id= -;
 update ..... set name = - WHERE id = -;
      -with no where, updates all rows
 
-     departments
-     - Merryment
-     - Musical
-     - Gifts
-     - Feasts
 
-     roles
-     - Head Decorator
-     - Parade Leader
-     - YuleTider
 
-     - Band Leader 
-     - Carol Writer
-     - Tuba Player
+switch(type) {
+     case 'sasfasfas': {
+          what happens
+          break
+     }
+     case 'sasfasfas': {
+          what happens
+          break
+     }
+     case 'sasfasfas': {
+          what happens
+          break
+     }
+    
+}
 
-     - Head wrapper 
-     - Finger Holder(for bow)
-     - Naughty List Manager
+prompt options
+-view all departments
+-view all roles
+-view all employees
+-add a department
+-add a role
+-add an employee
+-update employee role
 
-     - Head chef
-     - Toast Master General
-     - Roast Beast Carver
 
-     employess
-     - Cindyloo Who - lead dec
-     - Walkin' Tall Who
-     - Yule Who
-     - Toots Who
-     - Carol King Who
-     - Fat Who
-     - MC Who
-     - YoYo Ma WHo
-     - Actualy Who
-     - Bourdain Who
-     - Obama Who
-     - Martha Who
+bonus prompts
+-update employee manager
+-view employess by manager
+-view employess by department
+- delete departments, roles, and employees
+-view combined salaries of all employees in department (view total utilized budget)
 
+
+job titles, department, and salary should come from role_id
+
+manager should come from manager_id
+
+to compile all the relative data, a premade class may be halpful
+employee class
