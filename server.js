@@ -14,12 +14,42 @@ const bonusOptions = () => {
     ]);
 };
 
+const updateEmployee = () => {
+    prompt([
+        {
+            
+        }
+    ])
+}
+
 const addEmployee = () => {
     prompt([
         {
-
+            name: 'firstName',
+            message: 'New Hire\'s first name.'
+        },
+        {
+            name: 'lastName',
+            message: 'New Hire\'s last name.'
+        },
+        {
+            name: 'employeeRole',
+            message: 'What role will this employee fill?'
+        },
+        {
+            name: 'emplManager',
+            message: 'Who will manage this individual?'
         }
     ])
+    .then((response) => {
+        db.query(`INSERT INTO employees SET first_name="${response.firstName}", last_name="${response.lastName}", role_id="2", manager_id="3"`)
+        db.query('SELECT * FROM employees', (err, results) => {
+            console.table(results, `
+    Our Family is Growing
+    `)
+            init();
+        })
+    });
 }
 const addRole = () => {
     prompt([
@@ -51,7 +81,7 @@ const addRole = () => {
         } else {
             depo = 4;
         }
-        db.query(`INSERT INTO roles SET title="${response.roleName}", salary="${responses.roleSalary}", department_id="${depo}"`)
+        db.query(`INSERT INTO roles SET title="${responses.roleName}", salary="${responses.roleSalary}", department_id="${depo}"`)
         db.query('SELECT * FROM roles', (err, results) => {
             console.table(results, `
     All Operations being handled!
