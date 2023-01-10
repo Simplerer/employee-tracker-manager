@@ -25,13 +25,13 @@ switch(type) {
 }
 
 prompt options
--view all departments
--view all roles
--view all employees
--add a department
--add a role
--add an employee
--update employee role
+-view all departments    -
+-view all roles          -
+-view all employees      -
+-add a department        -
+-add a role              -
+-add an employee   f l name, role, manager
+-update employee role update role
 
 
 bonus prompts
@@ -48,3 +48,13 @@ manager should come from manager_id
 
 to compile all the relative data, a premade class may be halpful
 employee class
+
+
+const obj = { foo: "bar", baz: 42 };
+console.log(Object.entries(obj)); // [ ['foo', 'bar'], ['baz', 42] ]
+{ id: 1, name: 'Merryment' },
+  { id: 2, name: 'Musical Enjoyment' },
+  { id: 3, name: 'Gifts Central' },
+  { id: 4, name: 'Feasts' },
+  { id: 5, name: 'testcase' }
+]
