@@ -17,6 +17,9 @@
 
   This project was created to showcase and practice the different skills I have cultivated using MYSQL.
   
+  ## Presentation Video
+  
+  [In Action](https://app.castify.com/view/2ed738e8-6e0b-4d6e-b78e-92f1a8ad1930)
     
   ## Image
 
