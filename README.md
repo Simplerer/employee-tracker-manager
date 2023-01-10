@@ -1,14 +1,10 @@
 # Employee Tracker Manager
-
-  ## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
+  - [Image](#image)
   - [Questions](#questions)
     
   ## Description
@@ -18,17 +14,13 @@
   Run npm start in your terminal to initialize in node.
     
   ## Usage
-  This project was to showcase and practice my different skills in MYSQL.
+
+  This project was created to showcase and practice the different skills I have cultivated using MYSQL.
   
-  ## License
-  This application is covered under the MIT licensing.
-  For information on what this license covers please visit this source [Choose a License](https://choosealicense.com/appendix/)
     
-  ## Contributing
-  N/A
-    
-  ## Tests
-  N/A
+  ## Image
+
+  ![ScreenShot](./Assets/Screenshot_20230110_043009.png)
     
   ## Questions
   If you need any more information on using this application, my email is Simplererstone@gmail.com.
