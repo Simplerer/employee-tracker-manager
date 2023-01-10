@@ -1,5 +1,3 @@
-insert into ..... set id= -, name= -, role= -, etc;
-
 
 delete from ..... WHERE id= -;
 
@@ -8,31 +6,6 @@ update ..... set name = - WHERE id = -;
 
 
 
-switch(type) {
-     case 'sasfasfas': {
-          what happens
-          break
-     }
-     case 'sasfasfas': {
-          what happens
-          break
-     }
-     case 'sasfasfas': {
-          what happens
-          break
-     }
-    
-}
-
-prompt options
--view all departments    -
--view all roles          -
--view all employees      -
--add a department        -
--add a role              -
--add an employee   f l name, role, manager
--update employee role update role
-
 
 bonus prompts
 -update employee manager
@@ -40,29 +13,6 @@ bonus prompts
 -view employess by department
 - delete departments, roles, and employees
 -view combined salaries of all employees in department (view total utilized budget)
-
-
-job titles, department, and salary should come from role_id
-
-manager should come from manager_id
-
-to compile all the relative data, a premade class may be halpful
-employee class
-
-
-
-
-
-
-const insert = (table, data) => {
-     db.query('Insert INTO ?? SET ?', [table, data], (err) => {
-          if (err) return console.error(err);
-          console.log('success');
-     });
-};
-
-
-
 
 
 const selectallnameandvalue = (table, data, value) => {
