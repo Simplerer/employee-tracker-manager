@@ -21,15 +21,15 @@ VALUES
 ('Roast Beast Carver', 57000, 4);
 INSERT INTO employees (first_name, last_name, role_id, manager_id) 
 VALUES 
-('Cindy Lou', 'Who', 1, null),
-('Walking Tall', 'Who', 2, 1),
-('Yule', 'Who', 3, 1),
-('Toots', 'Who', 4, null),
-('Carol King', 'Who', 5, 4),
+('CindyLou', 'Who', 1, null),
+('Joaquin', 'Tall', 2, 1),
+('Yule', 'Tide', 3, 1),
+('Toots', 'Maytal', 4, null),
+('Carol', 'King', 5, 4),
 ('Fat', 'Who', 6, 4),
-('MC', 'Who', 7, null),
-('YoYo Ma', 'Who', 8, 7),
-('Actually', 'Who', 9, 7),
-('Bourdain', 'Who', 10, null),
-('Obama', 'Who', 11, 10),
-('Martha', 'Who', 12, 10);
+('MC', 'Who-Who', 7, null),
+('YoYo-Ma', 'Who', 8, 7),
+('Mayor', 'Meer', 9, 7),
+('Tony', 'Bourdain', 10, null),
+('Barack', 'Whobama', 11, 10),
+('Martha', 'Stewhort', 12, 10);

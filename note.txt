@@ -50,11 +50,41 @@ to compile all the relative data, a premade class may be halpful
 employee class
 
 
-const obj = { foo: "bar", baz: 42 };
-console.log(Object.entries(obj)); // [ ['foo', 'bar'], ['baz', 42] ]
-{ id: 1, name: 'Merryment' },
-  { id: 2, name: 'Musical Enjoyment' },
-  { id: 3, name: 'Gifts Central' },
-  { id: 4, name: 'Feasts' },
-  { id: 5, name: 'testcase' }
-]
+
+
+
+
+const insert = (table, data) => {
+     db.query('Insert INTO ?? SET ?', [table, data], (err) => {
+          if (err) return console.error(err);
+          console.log('success');
+     });
+};
+
+
+
+
+
+const selectallnameandvalue = (table, data, value) => {
+     return db.promise().query('SELECT ?? AS name, ?? AS value FROM ??', [name, value, table]);
+}
+
+async () => {
+     const [roles] = await selectall....('role','title','id')
+}
+put into brackets to only get the data back
+
+
+const selectallemployees = async () => {
+     const statement = 'select ydadadada'
+     const [employees] = await db.promise().query(statement);
+     console.table(employees);
+}
+
+use oreoared Statements
+
+async and await can not be used in global scope
+
+
+
+SUM WILL BE USED FOR SALARY
