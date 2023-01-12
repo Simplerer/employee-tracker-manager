@@ -38,3 +38,7 @@ async and await can not be used in global scope
 
 
 SUM WILL BE USED FOR SALARY
+
+
+
+Update role is deleting roles from list of options
