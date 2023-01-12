@@ -1,38 +1,9 @@
 
-delete from ..... WHERE id= -;
-
-update ..... set name = - WHERE id = -;
-     -with no where, updates all rows
-
-
-
 
 bonus prompts
 
--view employess by department
-- delete departments, roles, and employees
 -view combined salaries of all employees in department (view total utilized budget)
 
-
-const selectallnameandvalue = (table, data, value) => {
-     return db.promise().query('SELECT ?? AS name, ?? AS value FROM ??', [name, value, table]);
-}
-
-async () => {
-     const [roles] = await selectall....('role','title','id')
-}
-put into brackets to only get the data back
-
-
-const selectallemployees = async () => {
-     const statement = 'select ydadadada'
-     const [employees] = await db.promise().query(statement);
-     console.table(employees);
-}
-
-use oreoared Statements
-
-async and await can not be used in global scope
 
 
 
@@ -40,4 +11,4 @@ SUM WILL BE USED FOR SALARY
 
 
 
-Update role is deleting roles from list of options
+
