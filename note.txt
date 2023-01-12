@@ -8,8 +8,7 @@ update ..... set name = - WHERE id = -;
 
 
 bonus prompts
--update employee manager
--view employess by manager
+
 -view employess by department
 - delete departments, roles, and employees
 -view combined salaries of all employees in department (view total utilized budget)
