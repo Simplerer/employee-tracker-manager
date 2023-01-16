@@ -11,7 +11,7 @@
   This is an actively updated database using MYSQL. Using a fictional company I utilized MYSQL to add and update different tables as needed for a fictional Manager. The base Tables are adapted and Joined to return different fields as needed.
     
   ## Installation
-  Run npm start in your terminal to initialize in node.
+  To set up the application, first open download the dependencies by running npm i in your terminal. Once these are installed, populate your database by running the schema and seeds files located in the db folder with mySQL. After the database is seeded, run npm start in your terminal to initialize in node.
     
   ## Usage
 
